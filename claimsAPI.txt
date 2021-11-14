@@ -1,0 +1,41 @@
+curl --location --request POST 'https://devapi.edelweissinsurance.com/ai-bot/claim-registration/' \
+--header 'Authorization: eyJraWQiOiI1aDVBUDAwbitvcFkwQ3BITTNJVk5PczVPRVJsZFVOUlwvblwvcDJZSVUzc3c9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIycmNycnN0amloa2c2aGJtbjUxMm42ZmNmNCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiSW5zdXJhbmNlXC9HSV9TTVNHYXRld2F5X3A4ZmF3aXY3c2QgSW5zdXJhbmNlXC9FR0lfRW1haWxfU2VydmljZV9tbmkwZ3owM2drIEluc3VyYW5jZVwvQUlfQk9UX3UzdmVtY2p1NG0iLCJhdXRoX3RpbWUiOjE2MzY1Mzc3NTgsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1zb3V0aC0xLmFtYXpvbmF3cy5jb21cL2FwLXNvdXRoLTFfdGljdjRBYTRkIiwiZXhwIjoxNjM2NTQxMzU4LCJpYXQiOjE2MzY1Mzc3NTgsInZlcnNpb24iOjIsImp0aSI6ImNkYTRhZGI2LWQ3MTQtNDVhNS05NGM1LWQ5OGJkZWIzMzk5NCIsImNsaWVudF9pZCI6IjJyY3Jyc3RqaWhrZzZoYm1uNTEybjZmY2Y0In0.XiIHgIXCZ6vzYk1Gson9XelWkhSymIHaRKDluRnRI-RgNZ6qKmE_gXEGzNbHEfOGlbELhbTqyLf0u3g67oflV1sQPGpqEPzRYordwYq_2i2Y3bP7bqpIhDayuIppcULVac0ChIrTU5hHq4Er_jMu-ambDuqxEMimbmr775nobJJWUsrZSyQWmXVInz8dCEWSH5pYyKsD7ZdCMM3h5zid0lRLPbAw6KU_Pdgsym3AknAEEAXcCs-KQ_H0khRhfGwns8JSUj_gs9cghgBrWOUocKi31EJTQvQRW0pghN-0gFdDIAgWCQRW-DTU1q2fy9XCRlNoVX5h4TnrUxi6KIYffg' \
+--header 'x-api-key: 5suabwqrso4HGSkl7GxnK7vI3asycMQb4IE6CS2I' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "callerName": "Ankit",
+    "callerContact": "9725525580",
+    "callerEmail": "na",
+    "insuredRelation": "01",
+    "isDriverDetail": "N",
+    "policyNo": "00000000900039280",
+    "dateOfLoss": "20210818",
+    "timeOfLoss": "000001",
+    "policyProduct": "ZM2WOD",
+    "lossType": "Z2W1",
+    "lossCause": "ZM5",
+    "performer": "qa_ramana",
+    "tpLoss": "N",
+    "partnerClaimNumber": null,
+    "streetName": "adwdawdw",
+    "city": "Ahmedabad",
+    "state": "13",
+    "pincode": "382415",
+    "claimSAPOfficer": "Mumbai",
+    "expReserve": "15000",
+    "anyInjury": "N",
+    "delayReason": "dwdad dawdwa",
+    "driverName": "S",
+    "driverRelationWithInsured": "",
+    "dlNo": "",
+    "currentVehicleLocation": {
+        "workshopPincode": "",
+        "workshopBP": "",
+        "workshopName": "",
+        "workshopAddress": "",
+        "workshopDate": "",
+        "workshopContact": ""
+    },
+    "descriptionAboutAccident": "",
+    "accidentLocation": ""
+}'
