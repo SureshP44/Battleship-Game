@@ -27,6 +27,9 @@ def attackInput(player, opponent):
     if(position == "show both"):
         player.displayBothBoards(opponent)
         attackInput(player, opponent)
+    elif(position == 'show board'):
+        player.displayBoard()
+        attackInput(player, opponent)
     else:
         player.attack(opponent, position)
         player.displayBothBoards(opponent)
