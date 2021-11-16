@@ -39,6 +39,7 @@ player = [playerActions.PlayerActions(),playerActions.PlayerActions()]
 player[0].name = 'Player A'
 player[1].name = 'Player B'
 
+print('====== GAME STARTS ======')
 print('====== PLAYER A ======')
 PlaceShips(player[0])
 print('====== PLAYER B ======')
