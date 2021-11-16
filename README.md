@@ -1,6 +1,6 @@
   Battleship-Game
  
-  DESCRIPTION
+  **DESCRIPTION**
  
   Its a Two Player Game, created with python and targeted to make it as P2P Game.
   Currently this will work on Command line, it has 5 ships in total with 
@@ -13,7 +13,7 @@
   players to ATTACK
   
  
-  PLACING SHIPS
+**  PLACING SHIPS**
  
   It requires ship name and the starting position to place the ships.
  
@@ -27,7 +27,7 @@
   anything apart from this or the position is already occupied will be considered as invalid.
   once the place is valid, those positions will filled with '*'
  
-  ATTACKING SHIPS
+**  ATTACKING SHIPS**
  
   It will show the current state of the player and opponents board aswell
   
@@ -39,7 +39,20 @@
   If the position is valid and the opponent has ship then it is considered as 'hit' other than this is 'miss'
  
  
-  RESULT
+ ** RESULT**
+ 
   The player who first attacks all the ships will be considered as "WINNER".
+  
+  **HOW TO RUN THE GAME**
+  
+  Clone the repo and run the main.py
+  
+  
+  **Next Steps**
+  
+  It can be enhanced with P2P network with the help of package 'twisted'.
+  
+  
+
 
 
