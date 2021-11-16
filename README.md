@@ -13,7 +13,7 @@
   players to ATTACK
   
  
-**  PLACING SHIPS**
+**PLACING SHIPS**
  
   It requires ship name and the starting position to place the ships.
  
@@ -27,7 +27,7 @@
   anything apart from this or the position is already occupied will be considered as invalid.
   once the place is valid, those positions will filled with '*'
  
-**  ATTACKING SHIPS**
+**ATTACKING SHIPS**
  
   It will show the current state of the player and opponents board aswell
   
@@ -37,9 +37,12 @@
   returns hit or miss
  
   If the position is valid and the opponent has ship then it is considered as 'hit' other than this is 'miss'
+  If it was a successful hit, that position will be marked as '1', else it will be marked as '0'.
+  
+  At the middle of attack, you can view both the boards by saying 'show both'.
  
  
- ** RESULT**
+ **RESULT**
  
   The player who first attacks all the ships will be considered as "WINNER".
   
